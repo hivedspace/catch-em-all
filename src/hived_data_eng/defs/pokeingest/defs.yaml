@@ -1,0 +1,9 @@
+type: dagster_dlt.DltLoadCollectionComponent
+
+attributes:
+  loads:
+    - source: .loads.pokemon_load_source
+      pipeline: .loads.pokemon_load_pipeline
+      translation:
+        group_name: pokemon
+        description: "Loads pokemon info from PokeAPI v2 for different sources."
