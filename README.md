@@ -128,6 +128,7 @@ to launch the DuckDB local UI with the relevant `.duckdb` file already attached 
 
 ## Learn more
 
+- [PokeAPI Documentation](https://pokeapi.co/docs/v2)
 - [Dagster Documentation](https://docs.dagster.io/)
 - [Dagster dg CLI (labs)](https://docs.dagster.io/guides/labs/dg/)
 - [Dagster University](https://courses.dagster.io/)
