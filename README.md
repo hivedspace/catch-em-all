@@ -116,6 +116,14 @@ To attach a `.duckdb` file in the UI:
 2. Enter the path to the `.duckdb` file (e.g. `rest_api_pokemon.duckdb`)
 3. Run your queries
 
+Alternatively, run:
+
+```bash
+make run-duckdb
+```
+
+to launch the DuckDB local UI with the relevant `.duckdb` file already attached (will only work once the pipeline has been successfully run).
+
 > **Note:** DuckDB has [concurrency limitations](https://duckdb.org/docs/stable/connect/concurrency.html) — avoid writing multiple assets to the same `.duckdb` file simultaneously to prevent race conditions.
 
 ## Learn more
